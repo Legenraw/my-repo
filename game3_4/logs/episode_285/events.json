@@ -1,0 +1,709 @@
+{
+  "episode_id": "285",
+  "game_mode": "ml_recognition",
+  "start_time": "2026-03-13T23:42:23.809212",
+  "config": {
+    "game_mode": "target_reaching",
+    "headless": false,
+    "screen_dimensions": [
+      1280,
+      720
+    ],
+    "target_fps": 60,
+    "background_color": [
+      0,
+      119,
+      190
+    ],
+    "max_steps": null,
+    "max_time": null,
+    "logging": {
+      "enabled": true,
+      "log_dir": "./logs",
+      "telemetry_enabled": true,
+      "events_enabled": true,
+      "auto_increment_episode": true
+    },
+    "physics_constants": {
+      "water_density": 1000,
+      "gravity": 9.81,
+      "drag_coefficient": 1e-05,
+      "angular_drag_coefficient": 0.0001,
+      "enable_currents": false,
+      "current_strength": 50,
+      "current_direction": [
+        1.0,
+        0.0
+      ],
+      "turbulence_enabled": false
+    },
+    "submarine_parameters": {
+      "mass": 100,
+      "moment_of_inertia": 10,
+      "drag_area": 0.5,
+      "sub_max_thrust": 50000,
+      "sub_max_torque": 5,
+      "max_velocity": 300,
+      "max_angular_velocity": 2.0,
+      "sub_size": [
+        30,
+        10
+      ],
+      "spawn_random": false,
+      "spawn_position": null
+    },
+    "game1_config": {
+      "success_radius": 30,
+      "target_spawn_margin": 50,
+      "auto_reset": false,
+      "stability_duration": 2.0
+    },
+    "game2_config": {
+      "num_obstacles": 5,
+      "obstacle_radius_range": [
+        20,
+        50
+      ],
+      "min_spacing": 100,
+      "collision_ends_episode": false,
+      "collision_penalty": 10
+    },
+    "game3_config": {
+      "shapes": [
+        "circle",
+        "square",
+        "triangle"
+      ],
+      "colors": {
+        "red": [
+          255,
+          0,
+          0
+        ],
+        "blue": [
+          0,
+          0,
+          255
+        ],
+        "green": [
+          0,
+          255,
+          0
+        ]
+      },
+      "shape_duration": 5.0,
+      "max_shapes": 3,
+      "spawn_interval": 2.0,
+      "hard_mode": false,
+      "shape_scoring": {
+        "circle": 10,
+        "square": 15,
+        "triangle": 20
+      },
+      "color_multipliers": {
+        "red": 0.5,
+        "blue": 1.0,
+        "green": 1.5
+      },
+      "episode_duration": 60.0
+    },
+    "game4_config": {
+      "dataset": "mnist",
+      "dataset_path": "./datasets/mnist",
+      "image_display_size": [
+        64,
+        64
+      ],
+      "image_duration": 6.0,
+      "max_images": 2,
+      "spawn_interval": 2.0,
+      "points_per_correct": 20,
+      "episode_duration": 60.0
+    }
+  },
+  "events": [
+    {
+      "step": 0,
+      "time": 0.0,
+      "type": "episode_start",
+      "data": {
+        "spawn_position": [
+          640.0,
+          360.0
+        ],
+        "spawn_orientation": 4.959155536400309,
+        "episode_duration": 60.0,
+        "dataset": "mnist",
+        "max_images": 2,
+        "image_duration": 6.0
+      }
+    },
+    {
+      "step": 121,
+      "time": 2.0166666666666644,
+      "type": "image_spawned",
+      "data": {
+        "id": "image_000",
+        "label": 8,
+        "position": [
+          453.2280474941795,
+          423.55751096803033
+        ],
+        "display_size": [
+          64,
+          64
+        ],
+        "spawn_time": 2.0166666666666644,
+        "expires_at": 8.016666666666664,
+        "identified": false
+      }
+    },
+    {
+      "step": 242,
+      "time": 4.033333333333324,
+      "type": "image_spawned",
+      "data": {
+        "id": "image_001",
+        "label": 4,
+        "position": [
+          658.8935214834346,
+          491.262508806449
+        ],
+        "display_size": [
+          64,
+          64
+        ],
+        "spawn_time": 4.033333333333324,
+        "expires_at": 10.033333333333324,
+        "identified": false
+      }
+    },
+    {
+      "step": 482,
+      "time": 8.033333333333312,
+      "type": "image_expired",
+      "data": {
+        "image_id": "image_000",
+        "was_identified": false
+      }
+    },
+    {
+      "step": 484,
+      "time": 8.066666666666647,
+      "type": "image_spawned",
+      "data": {
+        "id": "image_002",
+        "label": 1,
+        "position": [
+          746.5285774513316,
+          337.72472469943676
+        ],
+        "display_size": [
+          64,
+          64
+        ],
+        "spawn_time": 8.066666666666647,
+        "expires_at": 14.066666666666647,
+        "identified": false
+      }
+    },
+    {
+      "step": 602,
+      "time": 10.033333333333411,
+      "type": "image_expired",
+      "data": {
+        "image_id": "image_001",
+        "was_identified": false
+      }
+    },
+    {
+      "step": 604,
+      "time": 10.066666666666746,
+      "type": "image_spawned",
+      "data": {
+        "id": "image_003",
+        "label": 8,
+        "position": [
+          1008.6378179164484,
+          233.35931301655424
+        ],
+        "display_size": [
+          64,
+          64
+        ],
+        "spawn_time": 10.066666666666746,
+        "expires_at": 16.066666666666748,
+        "identified": false
+      }
+    },
+    {
+      "step": 844,
+      "time": 14.066666666666945,
+      "type": "image_expired",
+      "data": {
+        "image_id": "image_002",
+        "was_identified": false
+      }
+    },
+    {
+      "step": 964,
+      "time": 16.066666666667036,
+      "type": "image_spawned",
+      "data": {
+        "id": "image_004",
+        "label": 5,
+        "position": [
+          139.74234331782162,
+          535.0781244411987
+        ],
+        "display_size": [
+          64,
+          64
+        ],
+        "spawn_time": 16.066666666667036,
+        "expires_at": 22.066666666667036,
+        "identified": false
+      }
+    },
+    {
+      "step": 964,
+      "time": 16.066666666667036,
+      "type": "image_expired",
+      "data": {
+        "image_id": "image_003",
+        "was_identified": false
+      }
+    },
+    {
+      "step": 1085,
+      "time": 18.083333333333588,
+      "type": "image_spawned",
+      "data": {
+        "id": "image_005",
+        "label": 1,
+        "position": [
+          851.9233550303796,
+          482.773182976539
+        ],
+        "display_size": [
+          64,
+          64
+        ],
+        "spawn_time": 18.083333333333588,
+        "expires_at": 24.083333333333588,
+        "identified": false
+      }
+    },
+    {
+      "step": 1325,
+      "time": 22.08333333333336,
+      "type": "image_expired",
+      "data": {
+        "image_id": "image_004",
+        "was_identified": false
+      }
+    },
+    {
+      "step": 1327,
+      "time": 22.116666666666692,
+      "type": "image_spawned",
+      "data": {
+        "id": "image_006",
+        "label": 9,
+        "position": [
+          799.9844774040886,
+          175.46277675083346
+        ],
+        "display_size": [
+          64,
+          64
+        ],
+        "spawn_time": 22.116666666666692,
+        "expires_at": 28.116666666666692,
+        "identified": false
+      }
+    },
+    {
+      "step": 1446,
+      "time": 24.099999999999913,
+      "type": "image_expired",
+      "data": {
+        "image_id": "image_005",
+        "was_identified": false
+      }
+    },
+    {
+      "step": 1448,
+      "time": 24.133333333333244,
+      "type": "image_spawned",
+      "data": {
+        "id": "image_007",
+        "label": 2,
+        "position": [
+          1127.945375208715,
+          292.8792129797906
+        ],
+        "display_size": [
+          64,
+          64
+        ],
+        "spawn_time": 24.133333333333244,
+        "expires_at": 30.133333333333244,
+        "identified": false
+      }
+    },
+    {
+      "step": 1688,
+      "time": 28.133333333333017,
+      "type": "image_expired",
+      "data": {
+        "image_id": "image_006",
+        "was_identified": false
+      }
+    },
+    {
+      "step": 1690,
+      "time": 28.166666666666348,
+      "type": "image_spawned",
+      "data": {
+        "id": "image_008",
+        "label": 6,
+        "position": [
+          736.935192007017,
+          269.72765829060216
+        ],
+        "display_size": [
+          64,
+          64
+        ],
+        "spawn_time": 28.166666666666348,
+        "expires_at": 34.166666666666345,
+        "identified": false
+      }
+    },
+    {
+      "step": 1809,
+      "time": 30.14999999999957,
+      "type": "image_expired",
+      "data": {
+        "image_id": "image_007",
+        "was_identified": false
+      }
+    },
+    {
+      "step": 1811,
+      "time": 30.1833333333329,
+      "type": "image_spawned",
+      "data": {
+        "id": "image_009",
+        "label": 1,
+        "position": [
+          790.6223833084035,
+          556.9651818482514
+        ],
+        "display_size": [
+          64,
+          64
+        ],
+        "spawn_time": 30.1833333333329,
+        "expires_at": 36.1833333333329,
+        "identified": false
+      }
+    },
+    {
+      "step": 2051,
+      "time": 34.183333333332676,
+      "type": "image_expired",
+      "data": {
+        "image_id": "image_008",
+        "was_identified": false
+      }
+    },
+    {
+      "step": 2053,
+      "time": 34.21666666666601,
+      "type": "image_spawned",
+      "data": {
+        "id": "image_010",
+        "label": 1,
+        "position": [
+          324.9863329667232,
+          529.6690024356959
+        ],
+        "display_size": [
+          64,
+          64
+        ],
+        "spawn_time": 34.21666666666601,
+        "expires_at": 40.21666666666601,
+        "identified": false
+      }
+    },
+    {
+      "step": 2172,
+      "time": 36.19999999999923,
+      "type": "image_expired",
+      "data": {
+        "image_id": "image_009",
+        "was_identified": false
+      }
+    },
+    {
+      "step": 2174,
+      "time": 36.23333333333256,
+      "type": "image_spawned",
+      "data": {
+        "id": "image_011",
+        "label": 4,
+        "position": [
+          441.60084058565303,
+          340.7632300880524
+        ],
+        "display_size": [
+          64,
+          64
+        ],
+        "spawn_time": 36.23333333333256,
+        "expires_at": 42.23333333333256,
+        "identified": false
+      }
+    },
+    {
+      "step": 2414,
+      "time": 40.23333333333233,
+      "type": "image_expired",
+      "data": {
+        "image_id": "image_010",
+        "was_identified": false
+      }
+    },
+    {
+      "step": 2416,
+      "time": 40.266666666665664,
+      "type": "image_spawned",
+      "data": {
+        "id": "image_012",
+        "label": 1,
+        "position": [
+          986.0676743699524,
+          429.9397115488595
+        ],
+        "display_size": [
+          64,
+          64
+        ],
+        "spawn_time": 40.266666666665664,
+        "expires_at": 46.266666666665664,
+        "identified": false
+      }
+    },
+    {
+      "step": 2535,
+      "time": 42.249999999998884,
+      "type": "image_expired",
+      "data": {
+        "image_id": "image_011",
+        "was_identified": false
+      }
+    },
+    {
+      "step": 2537,
+      "time": 42.283333333332216,
+      "type": "image_spawned",
+      "data": {
+        "id": "image_013",
+        "label": 0,
+        "position": [
+          110.77110747378569,
+          531.0540789607948
+        ],
+        "display_size": [
+          64,
+          64
+        ],
+        "spawn_time": 42.283333333332216,
+        "expires_at": 48.283333333332216,
+        "identified": false
+      }
+    },
+    {
+      "step": 2777,
+      "time": 46.28333333333199,
+      "type": "image_expired",
+      "data": {
+        "image_id": "image_012",
+        "was_identified": false
+      }
+    },
+    {
+      "step": 2779,
+      "time": 46.31666666666532,
+      "type": "image_spawned",
+      "data": {
+        "id": "image_014",
+        "label": 7,
+        "position": [
+          822.035542401372,
+          176.39612017824237
+        ],
+        "display_size": [
+          64,
+          64
+        ],
+        "spawn_time": 46.31666666666532,
+        "expires_at": 52.31666666666532,
+        "identified": false
+      }
+    },
+    {
+      "step": 2898,
+      "time": 48.29999999999854,
+      "type": "image_expired",
+      "data": {
+        "image_id": "image_013",
+        "was_identified": false
+      }
+    },
+    {
+      "step": 2900,
+      "time": 48.33333333333187,
+      "type": "image_spawned",
+      "data": {
+        "id": "image_015",
+        "label": 1,
+        "position": [
+          255.81601529796893,
+          140.37413762279527
+        ],
+        "display_size": [
+          64,
+          64
+        ],
+        "spawn_time": 48.33333333333187,
+        "expires_at": 54.33333333333187,
+        "identified": false
+      }
+    },
+    {
+      "step": 3140,
+      "time": 52.333333333331645,
+      "type": "image_expired",
+      "data": {
+        "image_id": "image_014",
+        "was_identified": false
+      }
+    },
+    {
+      "step": 3142,
+      "time": 52.366666666664976,
+      "type": "image_spawned",
+      "data": {
+        "id": "image_016",
+        "label": 3,
+        "position": [
+          513.6959088209483,
+          559.4430398433364
+        ],
+        "display_size": [
+          64,
+          64
+        ],
+        "spawn_time": 52.366666666664976,
+        "expires_at": 58.366666666664976,
+        "identified": false
+      }
+    },
+    {
+      "step": 3261,
+      "time": 54.3499999999982,
+      "type": "image_expired",
+      "data": {
+        "image_id": "image_015",
+        "was_identified": false
+      }
+    },
+    {
+      "step": 3263,
+      "time": 54.38333333333153,
+      "type": "image_spawned",
+      "data": {
+        "id": "image_017",
+        "label": 4,
+        "position": [
+          256.7106667630154,
+          341.40998340835966
+        ],
+        "display_size": [
+          64,
+          64
+        ],
+        "spawn_time": 54.38333333333153,
+        "expires_at": 60.38333333333153,
+        "identified": false
+      }
+    },
+    {
+      "step": 3503,
+      "time": 58.3833333333313,
+      "type": "image_expired",
+      "data": {
+        "image_id": "image_016",
+        "was_identified": false
+      }
+    },
+    {
+      "step": 3505,
+      "time": 58.41666666666463,
+      "type": "image_spawned",
+      "data": {
+        "id": "image_018",
+        "label": 7,
+        "position": [
+          840.3530877058748,
+          500.1262382941853
+        ],
+        "display_size": [
+          64,
+          64
+        ],
+        "spawn_time": 58.41666666666463,
+        "expires_at": 64.41666666666464,
+        "identified": false
+      }
+    },
+    {
+      "step": 3601,
+      "time": 60.01666666666454,
+      "type": "episode_end",
+      "data": {
+        "reason": "max_time_reached"
+      }
+    },
+    {
+      "step": 3601,
+      "time": 60.01666666666454,
+      "type": "episode_end",
+      "data": {
+        "reason": "time_limit",
+        "total_steps": 3601,
+        "total_time": 60.01666666666454,
+        "final_score": 0,
+        "images_spawned": 19,
+        "correct_identifications": 0,
+        "incorrect_identifications": 0,
+        "accuracy": 0.0,
+        "final_speed": 0.0
+      }
+    }
+  ],
+  "summary": {
+    "total_steps": 3601,
+    "total_time": 60.01666666666454,
+    "final_score": 0,
+    "images_spawned": 19,
+    "correct_identifications": 0,
+    "incorrect_identifications": 0,
+    "accuracy": 0.0,
+    "final_speed": 0.0
+  }
+}

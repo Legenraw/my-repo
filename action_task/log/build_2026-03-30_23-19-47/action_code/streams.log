@@ -1,0 +1,33 @@
+[0.290s] Invoking command in '/home/legenraw/auv tasks/action_task/src/action_code': PYTHONPATH=/home/legenraw/auv tasks/action_task/build/action_code/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/legenraw/auv tasks/action_task/install/action_code/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/action_code build --build-base /home/legenraw/auv tasks/action_task/build/action_code/build install --record /home/legenraw/auv tasks/action_task/build/action_code/install.log --single-version-externally-managed install_data
+[0.394s] running egg_info
+[0.394s] creating ../../build/action_code/action_code.egg-info
+[0.395s] writing ../../build/action_code/action_code.egg-info/PKG-INFO
+[0.395s] writing dependency_links to ../../build/action_code/action_code.egg-info/dependency_links.txt
+[0.395s] writing entry points to ../../build/action_code/action_code.egg-info/entry_points.txt
+[0.395s] writing requirements to ../../build/action_code/action_code.egg-info/requires.txt
+[0.395s] writing top-level names to ../../build/action_code/action_code.egg-info/top_level.txt
+[0.395s] writing manifest file '../../build/action_code/action_code.egg-info/SOURCES.txt'
+[0.396s] reading manifest file '../../build/action_code/action_code.egg-info/SOURCES.txt'
+[0.396s] adding license file 'LICENSE'
+[0.396s] writing manifest file '../../build/action_code/action_code.egg-info/SOURCES.txt'
+[0.396s] running build
+[0.396s] running build_py
+[0.396s] creating /home/legenraw/auv tasks/action_task/build/action_code/build
+[0.396s] creating /home/legenraw/auv tasks/action_task/build/action_code/build/lib
+[0.396s] creating /home/legenraw/auv tasks/action_task/build/action_code/build/lib/action_code
+[0.396s] copying action_code/__init__.py -> /home/legenraw/auv tasks/action_task/build/action_code/build/lib/action_code
+[0.396s] running install
+[0.396s] running install_lib
+[0.396s] creating /home/legenraw/auv tasks/action_task/install/action_code/lib/python3.10/site-packages/action_code
+[0.396s] copying /home/legenraw/auv tasks/action_task/build/action_code/build/lib/action_code/__init__.py -> /home/legenraw/auv tasks/action_task/install/action_code/lib/python3.10/site-packages/action_code
+[0.397s] byte-compiling /home/legenraw/auv tasks/action_task/install/action_code/lib/python3.10/site-packages/action_code/__init__.py to __init__.cpython-310.pyc
+[0.397s] running install_data
+[0.397s] creating /home/legenraw/auv tasks/action_task/install/action_code/share/ament_index
+[0.397s] creating /home/legenraw/auv tasks/action_task/install/action_code/share/ament_index/resource_index
+[0.397s] creating /home/legenraw/auv tasks/action_task/install/action_code/share/ament_index/resource_index/packages
+[0.397s] copying resource/action_code -> /home/legenraw/auv tasks/action_task/install/action_code/share/ament_index/resource_index/packages
+[0.397s] copying package.xml -> /home/legenraw/auv tasks/action_task/install/action_code/share/action_code
+[0.397s] running install_egg_info
+[0.398s] Copying ../../build/action_code/action_code.egg-info to /home/legenraw/auv tasks/action_task/install/action_code/lib/python3.10/site-packages/action_code-0.0.0-py3.10.egg-info
+[0.398s] running install_scripts
+[0.410s] writing list of installed files to '/home/legenraw/auv tasks/action_task/build/action_code/install.log'

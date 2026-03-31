@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-221acb2e610802e9b96b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "action_msg__py",
+					"jsonFile" : "directory-action_msg__py-dcb55a512c1bd97d5b1b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/legenraw/auv tasks/action_task/build/action_msg/action_msg__py",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "action_msg",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "action_msg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-action_msg-01ce51619c03527730e3.json",
+					"name" : "action_msg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "action_msg__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-action_msg__cpp-846f45cc36251fdc88db.json",
+					"name" : "action_msg__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "action_msg__py::@c27c69b29b30052233c4",
+					"jsonFile" : "target-action_msg__py-be2a456db52dbadc9f97.json",
+					"name" : "action_msg__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "action_msg__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-action_msg__rosidl_generator_c-3139c2e9df8a2778a480.json",
+					"name" : "action_msg__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "action_msg__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-action_msg__rosidl_generator_py-329690cbd6b2b6c63d85.json",
+					"name" : "action_msg__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "action_msg__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-action_msg__rosidl_typesupport_c-f37e3b8e1a4db8f44524.json",
+					"name" : "action_msg__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "action_msg__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-action_msg__rosidl_typesupport_c__pyext-d8c86c59ef8c1447117e.json",
+					"name" : "action_msg__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "action_msg__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-action_msg__rosidl_typesupport_cpp-8b203380422eef9cab2f.json",
+					"name" : "action_msg__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "action_msg__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-action_msg__rosidl_typesupport_fastrtps_c-4879dd0bba48ccd386e9.json",
+					"name" : "action_msg__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "action_msg__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-action_msg__rosidl_typesupport_fastrtps_c__pyext-3061f12b0ffce7a281ef.json",
+					"name" : "action_msg__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "action_msg__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-action_msg__rosidl_typesupport_fastrtps_cpp-23fcce10816cd5f70170.json",
+					"name" : "action_msg__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "action_msg__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-action_msg__rosidl_typesupport_introspection_c-ae77b06f52c1112ba137.json",
+					"name" : "action_msg__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "action_msg__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-action_msg__rosidl_typesupport_introspection_c__pyext-f1fa29177c88ba2da72f.json",
+					"name" : "action_msg__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "action_msg__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-action_msg__rosidl_typesupport_introspection_cpp-aa467bcb9c49684afba9.json",
+					"name" : "action_msg__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "action_msg_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-action_msg_uninstall-e4379a77b3a31e6b02ac.json",
+					"name" : "action_msg_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_action_msg_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_action_msg_egg-3b6d89a0e65d0afba890.json",
+					"name" : "ament_cmake_python_build_action_msg_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_action_msg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_action_msg-31bfc6fadf41d9730ea7.json",
+					"name" : "ament_cmake_python_copy_action_msg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-82e1ff0adaa5e0ea03c0.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/legenraw/auv tasks/action_task/build/action_msg",
+		"source" : "/home/legenraw/auv tasks/action_task/src/action_msg"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

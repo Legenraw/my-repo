@@ -1,0 +1,27 @@
+running egg_info
+writing ../../build/action_code/action_code.egg-info/PKG-INFO
+writing dependency_links to ../../build/action_code/action_code.egg-info/dependency_links.txt
+writing entry points to ../../build/action_code/action_code.egg-info/entry_points.txt
+writing requirements to ../../build/action_code/action_code.egg-info/requires.txt
+writing top-level names to ../../build/action_code/action_code.egg-info/top_level.txt
+reading manifest file '../../build/action_code/action_code.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/action_code/action_code.egg-info/SOURCES.txt'
+running build
+running build_py
+copying action_code/action_server.py -> /home/legenraw/auv tasks/action_task/build/action_code/build/lib/action_code
+running install
+running install_lib
+copying /home/legenraw/auv tasks/action_task/build/action_code/build/lib/action_code/action_server.py -> /home/legenraw/auv tasks/action_task/install/action_code/lib/python3.10/site-packages/action_code
+byte-compiling /home/legenraw/auv tasks/action_task/install/action_code/lib/python3.10/site-packages/action_code/action_server.py to action_server.cpython-310.pyc
+running install_data
+running install_egg_info
+  File "/home/legenraw/auv tasks/action_task/install/action_code/lib/python3.10/site-packages/action_code/action_server.py", line 7
+    from action_msg.action import
+                                 ^
+SyntaxError: invalid syntax
+
+removing '/home/legenraw/auv tasks/action_task/install/action_code/lib/python3.10/site-packages/action_code-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/action_code/action_code.egg-info to /home/legenraw/auv tasks/action_task/install/action_code/lib/python3.10/site-packages/action_code-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/legenraw/auv tasks/action_task/build/action_code/install.log'

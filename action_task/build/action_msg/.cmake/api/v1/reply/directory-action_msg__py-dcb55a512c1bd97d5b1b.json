@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "action_msg__py",
+		"source" : "/home/legenraw/auv tasks/action_task/build/action_msg/action_msg__py"
+	}
+}

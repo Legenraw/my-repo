@@ -1,0 +1,29 @@
+[0.270s] Invoking command in '/home/legenraw/auv tasks/action_task/src/action_code': PYTHONPATH=/home/legenraw/auv tasks/action_task/build/action_code/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/legenraw/auv tasks/action_task/install/action_code/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/action_code build --build-base /home/legenraw/auv tasks/action_task/build/action_code/build install --record /home/legenraw/auv tasks/action_task/build/action_code/install.log --single-version-externally-managed install_data
+[0.378s] running egg_info
+[0.378s] writing ../../build/action_code/action_code.egg-info/PKG-INFO
+[0.378s] writing dependency_links to ../../build/action_code/action_code.egg-info/dependency_links.txt
+[0.378s] writing entry points to ../../build/action_code/action_code.egg-info/entry_points.txt
+[0.378s] writing requirements to ../../build/action_code/action_code.egg-info/requires.txt
+[0.378s] writing top-level names to ../../build/action_code/action_code.egg-info/top_level.txt
+[0.379s] reading manifest file '../../build/action_code/action_code.egg-info/SOURCES.txt'
+[0.379s] adding license file 'LICENSE'
+[0.380s] writing manifest file '../../build/action_code/action_code.egg-info/SOURCES.txt'
+[0.380s] running build
+[0.380s] running build_py
+[0.380s] copying action_code/action_server.py -> /home/legenraw/auv tasks/action_task/build/action_code/build/lib/action_code
+[0.380s] running install
+[0.380s] running install_lib
+[0.380s] copying /home/legenraw/auv tasks/action_task/build/action_code/build/lib/action_code/action_server.py -> /home/legenraw/auv tasks/action_task/install/action_code/lib/python3.10/site-packages/action_code
+[0.380s] byte-compiling /home/legenraw/auv tasks/action_task/install/action_code/lib/python3.10/site-packages/action_code/action_server.py to action_server.cpython-310.pyc
+[0.380s] running install_data
+[0.381s] running install_egg_info
+[0.381s]   File "/home/legenraw/auv tasks/action_task/install/action_code/lib/python3.10/site-packages/action_code/action_server.py", line 7
+[0.381s]     from action_msg.action import
+[0.381s]                                  ^
+[0.381s] SyntaxError: invalid syntax
+[0.381s] 
+[0.381s] removing '/home/legenraw/auv tasks/action_task/install/action_code/lib/python3.10/site-packages/action_code-0.0.0-py3.10.egg-info' (and everything under it)
+[0.381s] Copying ../../build/action_code/action_code.egg-info to /home/legenraw/auv tasks/action_task/install/action_code/lib/python3.10/site-packages/action_code-0.0.0-py3.10.egg-info
+[0.381s] running install_scripts
+[0.391s] writing list of installed files to '/home/legenraw/auv tasks/action_task/build/action_code/install.log'
+[0.401s] Invoked command in '/home/legenraw/auv tasks/action_task/src/action_code' returned '0': PYTHONPATH=/home/legenraw/auv tasks/action_task/build/action_code/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/legenraw/auv tasks/action_task/install/action_code/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/action_code build --build-base /home/legenraw/auv tasks/action_task/build/action_code/build install --record /home/legenraw/auv tasks/action_task/build/action_code/install.log --single-version-externally-managed install_data

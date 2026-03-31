@@ -1,0 +1,2 @@
+Invoking command in '/home/legenraw/auv tasks/action_task/build/action_msg': /usr/bin/cmake /home/legenraw/auv tasks/action_task/src/action_msg -DCMAKE_INSTALL_PREFIX=/home/legenraw/auv tasks/action_task/install/action_msg
+Invoked command in '/home/legenraw/auv tasks/action_task/build/action_msg' returned '1': /usr/bin/cmake /home/legenraw/auv tasks/action_task/src/action_msg -DCMAKE_INSTALL_PREFIX=/home/legenraw/auv tasks/action_task/install/action_msg

@@ -1,0 +1,6 @@
+{
+  "package_name": "action_msg",
+  "non_idl_tuples": [
+    "/home/legenraw/auv tasks/action_task/src/action_msg:action/ActionInfo.action"
+  ]
+}

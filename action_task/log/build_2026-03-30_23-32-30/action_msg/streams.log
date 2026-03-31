@@ -1,0 +1,18 @@
+[0.118s] Invoking command in '/home/legenraw/auv tasks/action_task/build/action_msg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/legenraw/auv tasks/action_task/src/action_msg -DCMAKE_INSTALL_PREFIX=/home/legenraw/auv tasks/action_task/install/action_msg
+[0.126s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.203s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.256s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.257s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.258s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.273s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.373s] [31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:229 (message):
+[0.373s]   Packages installing interfaces must include
+[0.373s]   '<member_of_group>rosidl_interface_packages</member_of_group>' in their
+[0.373s]   package.xml
+[0.373s] Call Stack (most recent call first):
+[0.373s]   CMakeLists.txt:28 (rosidl_generate_interfaces)
+[0.373s] 
+[0.373s] [0m
+[0.373s] -- Configuring incomplete, errors occurred!
+[0.373s] See also "/home/legenraw/auv tasks/action_task/build/action_msg/CMakeFiles/CMakeOutput.log".
+[0.376s] Invoked command in '/home/legenraw/auv tasks/action_task/build/action_msg' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/legenraw/auv tasks/action_task/src/action_msg -DCMAKE_INSTALL_PREFIX=/home/legenraw/auv tasks/action_task/install/action_msg

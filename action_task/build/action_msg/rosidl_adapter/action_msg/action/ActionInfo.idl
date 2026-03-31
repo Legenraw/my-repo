@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from action_msg/action/ActionInfo.action
+// generated code does not contain a copyright notice
+
+
+module action_msg {
+  module action {
+    struct ActionInfo_Goal {
+      int32 target;
+    };
+    struct ActionInfo_Result {
+      int32 final_count;
+    };
+    struct ActionInfo_Feedback {
+      int32 current_count;
+    };
+  };
+};

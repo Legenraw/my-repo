@@ -1,0 +1,335 @@
+{
+  "episode_id": "420",
+  "game_mode": "ml_recognition",
+  "start_time": "2026-03-16T21:49:15.379632",
+  "config": {
+    "game_mode": "target_reaching",
+    "headless": false,
+    "screen_dimensions": [
+      1280,
+      720
+    ],
+    "target_fps": 60,
+    "background_color": [
+      0,
+      119,
+      190
+    ],
+    "max_steps": null,
+    "max_time": null,
+    "logging": {
+      "enabled": true,
+      "log_dir": "./logs",
+      "telemetry_enabled": true,
+      "events_enabled": true,
+      "auto_increment_episode": true
+    },
+    "physics_constants": {
+      "water_density": 1000,
+      "gravity": 9.81,
+      "drag_coefficient": 1e-05,
+      "angular_drag_coefficient": 0.0001,
+      "enable_currents": false,
+      "current_strength": 50,
+      "current_direction": [
+        1.0,
+        0.0
+      ],
+      "turbulence_enabled": false
+    },
+    "submarine_parameters": {
+      "mass": 100,
+      "moment_of_inertia": 10,
+      "drag_area": 0.5,
+      "sub_max_thrust": 50000,
+      "sub_max_torque": 5,
+      "max_velocity": 300,
+      "max_angular_velocity": 2.0,
+      "sub_size": [
+        30,
+        10
+      ],
+      "spawn_random": false,
+      "spawn_position": null
+    },
+    "game1_config": {
+      "success_radius": 30,
+      "target_spawn_margin": 50,
+      "auto_reset": false,
+      "stability_duration": 2.0
+    },
+    "game2_config": {
+      "num_obstacles": 5,
+      "obstacle_radius_range": [
+        20,
+        50
+      ],
+      "min_spacing": 100,
+      "collision_ends_episode": false,
+      "collision_penalty": 10
+    },
+    "game3_config": {
+      "shapes": [
+        "circle",
+        "square",
+        "triangle"
+      ],
+      "colors": {
+        "red": [
+          255,
+          0,
+          0
+        ],
+        "blue": [
+          0,
+          0,
+          255
+        ],
+        "green": [
+          0,
+          255,
+          0
+        ]
+      },
+      "shape_duration": 5.0,
+      "max_shapes": 3,
+      "spawn_interval": 2.0,
+      "hard_mode": false,
+      "shape_scoring": {
+        "circle": 10,
+        "square": 15,
+        "triangle": 20
+      },
+      "color_multipliers": {
+        "red": 0.5,
+        "blue": 1.0,
+        "green": 1.5
+      },
+      "episode_duration": 60.0
+    },
+    "game4_config": {
+      "dataset": "mnist",
+      "dataset_path": "./datasets/mnist",
+      "image_display_size": [
+        64,
+        64
+      ],
+      "image_duration": 4.5,
+      "max_images": 6,
+      "spawn_interval": 1.0,
+      "points_per_correct": 20,
+      "episode_duration": 60.0
+    }
+  },
+  "events": [
+    {
+      "step": 0,
+      "time": 0.0,
+      "type": "episode_start",
+      "data": {
+        "spawn_position": [
+          640.0,
+          360.0
+        ],
+        "spawn_orientation": 4.895704401752167,
+        "episode_duration": 60.0,
+        "dataset": "mnist",
+        "max_images": 6,
+        "image_duration": 4.5
+      }
+    },
+    {
+      "step": 60,
+      "time": 1.0000000000000013,
+      "type": "image_spawned",
+      "data": {
+        "id": "image_000",
+        "label": 8,
+        "position": [
+          878.5862440406936,
+          283.8383942550623
+        ],
+        "display_size": [
+          64,
+          64
+        ],
+        "spawn_time": 1.0000000000000013,
+        "expires_at": 5.500000000000002,
+        "identified": false
+      }
+    },
+    {
+      "step": 121,
+      "time": 2.0166666666666644,
+      "type": "image_spawned",
+      "data": {
+        "id": "image_001",
+        "label": 1,
+        "position": [
+          295.7132334049456,
+          344.01333044480424
+        ],
+        "display_size": [
+          64,
+          64
+        ],
+        "spawn_time": 2.0166666666666644,
+        "expires_at": 6.516666666666664,
+        "identified": false
+      }
+    },
+    {
+      "step": 182,
+      "time": 3.0333333333333274,
+      "type": "image_spawned",
+      "data": {
+        "id": "image_002",
+        "label": 8,
+        "position": [
+          646.2181869640854,
+          140.29123301903223
+        ],
+        "display_size": [
+          64,
+          64
+        ],
+        "spawn_time": 3.0333333333333274,
+        "expires_at": 7.533333333333328,
+        "identified": false
+      }
+    },
+    {
+      "step": 243,
+      "time": 4.049999999999991,
+      "type": "image_spawned",
+      "data": {
+        "id": "image_003",
+        "label": 1,
+        "position": [
+          362.9883764573918,
+          252.76554068932157
+        ],
+        "display_size": [
+          64,
+          64
+        ],
+        "spawn_time": 4.049999999999991,
+        "expires_at": 8.54999999999999,
+        "identified": false
+      }
+    },
+    {
+      "step": 304,
+      "time": 5.066666666666654,
+      "type": "image_spawned",
+      "data": {
+        "id": "image_004",
+        "label": 0,
+        "position": [
+          909.3969231340784,
+          220.1563473051047
+        ],
+        "display_size": [
+          64,
+          64
+        ],
+        "spawn_time": 5.066666666666654,
+        "expires_at": 9.566666666666654,
+        "identified": false
+      }
+    },
+    {
+      "step": 331,
+      "time": 5.516666666666652,
+      "type": "image_expired",
+      "data": {
+        "image_id": "image_000",
+        "was_identified": false
+      }
+    },
+    {
+      "step": 365,
+      "time": 6.083333333333317,
+      "type": "image_spawned",
+      "data": {
+        "id": "image_005",
+        "label": 9,
+        "position": [
+          637.19249332804,
+          159.49985033582138
+        ],
+        "display_size": [
+          64,
+          64
+        ],
+        "spawn_time": 6.083333333333317,
+        "expires_at": 10.583333333333318,
+        "identified": false
+      }
+    },
+    {
+      "step": 392,
+      "time": 6.5333333333333155,
+      "type": "image_expired",
+      "data": {
+        "image_id": "image_001",
+        "was_identified": false
+      }
+    },
+    {
+      "step": 426,
+      "time": 7.09999999999998,
+      "type": "image_spawned",
+      "data": {
+        "id": "image_006",
+        "label": 6,
+        "position": [
+          876.4045980471848,
+          219.66740776439275
+        ],
+        "display_size": [
+          64,
+          64
+        ],
+        "spawn_time": 7.09999999999998,
+        "expires_at": 11.59999999999998,
+        "identified": false
+      }
+    },
+    {
+      "step": 453,
+      "time": 7.5499999999999785,
+      "type": "image_expired",
+      "data": {
+        "image_id": "image_002",
+        "was_identified": false
+      }
+    },
+    {
+      "step": 467,
+      "time": 7.783333333333311,
+      "type": "episode_end",
+      "data": {
+        "reason": "time_limit",
+        "total_steps": 467,
+        "total_time": 7.783333333333311,
+        "final_score": 0,
+        "images_spawned": 7,
+        "correct_identifications": 0,
+        "incorrect_identifications": 0,
+        "accuracy": 0.0,
+        "final_speed": 300.0
+      }
+    }
+  ],
+  "summary": {
+    "total_steps": 467,
+    "total_time": 7.783333333333311,
+    "final_score": 0,
+    "images_spawned": 7,
+    "correct_identifications": 0,
+    "incorrect_identifications": 0,
+    "accuracy": 0.0,
+    "final_speed": 300.0
+  }
+}

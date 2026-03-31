@@ -1,0 +1,219 @@
+{
+  "episode_id": "039",
+  "game_mode": "obstacle_avoidance",
+  "start_time": "2026-02-15T23:06:40.601553",
+  "config": {
+    "game_mode": "target_reaching",
+    "headless": false,
+    "screen_dimensions": [
+      1280,
+      720
+    ],
+    "target_fps": 60,
+    "background_color": [
+      0,
+      119,
+      190
+    ],
+    "max_steps": null,
+    "max_time": null,
+    "logging": {
+      "enabled": true,
+      "log_dir": "./logs",
+      "telemetry_enabled": true,
+      "events_enabled": true,
+      "auto_increment_episode": true
+    },
+    "physics_constants": {
+      "water_density": 1000,
+      "gravity": 9.81,
+      "drag_coefficient": 1e-05,
+      "angular_drag_coefficient": 0.0001,
+      "enable_currents": false,
+      "current_strength": 50,
+      "current_direction": [
+        1.0,
+        0.0
+      ],
+      "turbulence_enabled": false
+    },
+    "submarine_parameters": {
+      "mass": 500,
+      "moment_of_inertia": 10,
+      "drag_area": 0.5,
+      "sub_max_thrust": 50000,
+      "sub_max_torque": 5,
+      "max_velocity": 100,
+      "max_angular_velocity": 2.0,
+      "sub_size": [
+        30,
+        10
+      ],
+      "spawn_random": false,
+      "spawn_position": null
+    },
+    "game1_config": {
+      "success_radius": 30,
+      "target_spawn_margin": 50,
+      "auto_reset": false,
+      "stability_duration": 2.0
+    },
+    "game2_config": {
+      "num_obstacles": 5,
+      "obstacle_radius_range": [
+        20,
+        50
+      ],
+      "min_spacing": 100,
+      "collision_ends_episode": false,
+      "collision_penalty": 10
+    },
+    "game3_config": {
+      "shapes": [
+        "circle",
+        "square",
+        "triangle"
+      ],
+      "colors": {
+        "red": [
+          255,
+          0,
+          0
+        ],
+        "blue": [
+          0,
+          0,
+          255
+        ],
+        "green": [
+          0,
+          255,
+          0
+        ]
+      },
+      "shape_duration": 5.0,
+      "max_shapes": 3,
+      "spawn_interval": 2.0,
+      "hard_mode": false,
+      "shape_scoring": {
+        "circle": 10,
+        "square": 15,
+        "triangle": 20
+      },
+      "color_multipliers": {
+        "red": 0.5,
+        "blue": 1.0,
+        "green": 1.5
+      },
+      "episode_duration": 60.0
+    },
+    "game4_config": {
+      "dataset": "mnist",
+      "dataset_path": "./datasets/mnist",
+      "image_display_size": [
+        64,
+        64
+      ],
+      "image_duration": 6.0,
+      "max_images": 2,
+      "spawn_interval": 2.0,
+      "points_per_correct": 20,
+      "episode_duration": 60.0
+    }
+  },
+  "events": [
+    {
+      "step": 0,
+      "time": 0.0,
+      "type": "episode_start",
+      "data": {
+        "spawn_position": [
+          640.0,
+          360.0
+        ],
+        "spawn_orientation": 2.1689379994861913,
+        "target_position": [
+          643.2000764699978,
+          378.5233317884938
+        ],
+        "success_radius": 30
+      }
+    },
+    {
+      "step": 0,
+      "time": 0.0,
+      "type": "obstacles_generated",
+      "data": {
+        "num_obstacles": 5,
+        "obstacles": [
+          {
+            "id": 0,
+            "position": [
+              252.65060129105734,
+              665.133122448117
+            ],
+            "radius": 41.783355430718004
+          },
+          {
+            "id": 1,
+            "position": [
+              1182.6866728707273,
+              336.9981569346298
+            ],
+            "radius": 21.93454890670474
+          },
+          {
+            "id": 2,
+            "position": [
+              742.9732140586933,
+              229.71610956105485
+            ],
+            "radius": 37.520088603328034
+          },
+          {
+            "id": 3,
+            "position": [
+              708.0777633328156,
+              57.8767523905208
+            ],
+            "radius": 30.08335811827186
+          },
+          {
+            "id": 4,
+            "position": [
+              281.63251113768354,
+              130.57968228007144
+            ],
+            "radius": 46.207793533893295
+          }
+        ]
+      }
+    },
+    {
+      "step": 49,
+      "time": 0.8166666666666675,
+      "type": "episode_end",
+      "data": {
+        "reason": "terminated",
+        "total_steps": 49,
+        "total_time": 0.8166666666666675,
+        "success": false,
+        "final_distance": 0.46438756815271987,
+        "final_speed": 100.00000000000001,
+        "collision_count": 0,
+        "total_penalty": 0,
+        "num_obstacles": 5
+      }
+    }
+  ],
+  "summary": {
+    "total_steps": 49,
+    "total_time": 0.8166666666666675,
+    "success": false,
+    "final_distance": 0.46438756815271987,
+    "final_speed": 100.00000000000001,
+    "collision_count": 0,
+    "total_penalty": 0,
+    "num_obstacles": 5
+  }
+}

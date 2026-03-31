@@ -1,0 +1,32 @@
+import numpy as np
+from typing import Tuple
+from src.controllers.vehicle_controller import VehicleController, GameState
+from src.controllers import pid
+
+
+class PIDControllerGame1(VehicleController):
+    print(pid.__file__)
+    def __init__(self, config):
+        super().__init__(config)
+        pass
+
+    def compute_control(self, state: GameState) -> Tuple[np.ndarray, float]:
+        print(state.target_position,state.distance_to_target)
+        aSet=(x/abs(x))*np.arctan((state.target_position[1]-state.vehicle_position[1])/(state.target_position[0]-state.vehicle_position[0]))
+        direction_vec=np.array(np.cos(aSet),np.sin(aSet))
+        torque=0.1
+        while(abs(vehicle_orientation-aSet)>0.001):
+            mypid=pid.PID_controller(10,0.01,0.0001)
+            error=aSet-vehicle_orientation
+            change=mypid.total_action(error,0.016)
+            torque+=change
+        #while(abs(distance_to_target)>0.001){
+        #    mag=0;
+         #   force=mag*direction_vec
+        #}
+        return np.array([0.0, 0.0]), torque
+
+    def reset(self):
+        self.last_pos_error = np.array([0.0, 0.0])
+        self.last_orientation_error = 0.0
+

@@ -1,0 +1,11 @@
+Step 0 | Time: 0.000s | Pos: (640.0, 360.0) | Vel: (0.5, -0.0) | Orient: 2.08 rad | AngVel: 2.00 | Speed: 0.5 | DistToTarget: 633.0 | Colliding: False | NearestObstacle: 116.8
+Step 1 | Time: 0.017s | Pos: (640.0, 360.0) | Vel: (0.6, 0.2) | Orient: 2.11 rad | AngVel: 2.00 | Speed: 0.6 | DistToTarget: 633.0 | Colliding: False | NearestObstacle: 116.8
+Step 2 | Time: 0.033s | Pos: (640.0, 360.0) | Vel: (0.3, 0.5) | Orient: 2.15 rad | AngVel: 2.00 | Speed: 0.6 | DistToTarget: 633.0 | Colliding: False | NearestObstacle: 116.8
+Step 3 | Time: 0.050s | Pos: (640.0, 360.0) | Vel: (-0.3, 1.0) | Orient: 2.18 rad | AngVel: 2.00 | Speed: 1.0 | DistToTarget: 633.0 | Colliding: False | NearestObstacle: 116.8
+Step 4 | Time: 0.067s | Pos: (640.0, 360.1) | Vel: (-1.4, 1.7) | Orient: 2.21 rad | AngVel: 2.00 | Speed: 2.2 | DistToTarget: 633.0 | Colliding: False | NearestObstacle: 116.8
+Step 5 | Time: 0.083s | Pos: (639.9, 360.1) | Vel: (-2.9, 2.5) | Orient: 2.25 rad | AngVel: 2.00 | Speed: 3.8 | DistToTarget: 632.9 | Colliding: False | NearestObstacle: 116.8
+Step 6 | Time: 0.100s | Pos: (639.9, 360.2) | Vel: (-4.7, 3.5) | Orient: 2.28 rad | AngVel: 2.00 | Speed: 5.8 | DistToTarget: 632.8 | Colliding: False | NearestObstacle: 116.7
+Step 7 | Time: 0.117s | Pos: (639.8, 360.2) | Vel: (-6.9, 4.7) | Orient: 2.31 rad | AngVel: 2.00 | Speed: 8.3 | DistToTarget: 632.7 | Colliding: False | NearestObstacle: 116.5
+Step 8 | Time: 0.133s | Pos: (639.6, 360.3) | Vel: (-9.5, 6.0) | Orient: 2.35 rad | AngVel: 2.00 | Speed: 11.3 | DistToTarget: 632.5 | Colliding: False | NearestObstacle: 116.4
+Step 9 | Time: 0.150s | Pos: (639.4, 360.5) | Vel: (-12.5, 7.5) | Orient: 2.38 rad | AngVel: 2.00 | Speed: 14.6 | DistToTarget: 632.3 | Colliding: False | NearestObstacle: 116.1
+Step 10 | Time: 0.167s | Pos: (639.1, 360.6) | Vel: (-15.8, 9.2) | Orient: 2.41 rad | AngVel: 2.00 | Speed: 18.3 | DistToTarget: 632.0 | Colliding: False | NearestObstacle: 115.8

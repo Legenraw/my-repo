@@ -1,0 +1,387 @@
+{
+  "episode_id": "224",
+  "game_mode": "shape_recognition",
+  "start_time": "2026-03-12T23:16:17.489837",
+  "config": {
+    "game_mode": "target_reaching",
+    "headless": false,
+    "screen_dimensions": [
+      1280,
+      720
+    ],
+    "target_fps": 60,
+    "background_color": [
+      0,
+      119,
+      190
+    ],
+    "max_steps": null,
+    "max_time": null,
+    "logging": {
+      "enabled": true,
+      "log_dir": "./logs",
+      "telemetry_enabled": true,
+      "events_enabled": true,
+      "auto_increment_episode": true
+    },
+    "physics_constants": {
+      "water_density": 1000,
+      "gravity": 9.81,
+      "drag_coefficient": 1e-05,
+      "angular_drag_coefficient": 0.0001,
+      "enable_currents": false,
+      "current_strength": 50,
+      "current_direction": [
+        1.0,
+        0.0
+      ],
+      "turbulence_enabled": false
+    },
+    "submarine_parameters": {
+      "mass": 100,
+      "moment_of_inertia": 10,
+      "drag_area": 0.5,
+      "sub_max_thrust": 50000,
+      "sub_max_torque": 5,
+      "max_velocity": 300,
+      "max_angular_velocity": 2.0,
+      "sub_size": [
+        30,
+        10
+      ],
+      "spawn_random": false,
+      "spawn_position": null
+    },
+    "game1_config": {
+      "success_radius": 30,
+      "target_spawn_margin": 50,
+      "auto_reset": false,
+      "stability_duration": 2.0
+    },
+    "game2_config": {
+      "num_obstacles": 5,
+      "obstacle_radius_range": [
+        20,
+        50
+      ],
+      "min_spacing": 100,
+      "collision_ends_episode": false,
+      "collision_penalty": 10
+    },
+    "game3_config": {
+      "shapes": [
+        "circle",
+        "square",
+        "triangle"
+      ],
+      "colors": {
+        "red": [
+          255,
+          0,
+          0
+        ],
+        "blue": [
+          0,
+          0,
+          255
+        ],
+        "green": [
+          0,
+          255,
+          0
+        ]
+      },
+      "shape_duration": 3.0,
+      "max_shapes": 4,
+      "spawn_interval": 1.0,
+      "hard_mode": false,
+      "shape_scoring": {
+        "circle": 10,
+        "square": 15,
+        "triangle": 20
+      },
+      "color_multipliers": {
+        "red": 0.5,
+        "blue": 1.0,
+        "green": 1.5
+      },
+      "episode_duration": 60.0
+    },
+    "game4_config": {
+      "dataset": "mnist",
+      "dataset_path": "./datasets/mnist",
+      "image_display_size": [
+        64,
+        64
+      ],
+      "image_duration": 6.0,
+      "max_images": 2,
+      "spawn_interval": 2.0,
+      "points_per_correct": 20,
+      "episode_duration": 60.0
+    }
+  },
+  "events": [
+    {
+      "step": 0,
+      "time": 0.0,
+      "type": "episode_start",
+      "data": {
+        "spawn_position": [
+          640.0,
+          360.0
+        ],
+        "spawn_orientation": 4.659040310671768,
+        "episode_duration": 60.0,
+        "max_shapes": 4,
+        "shape_duration": 3.0
+      }
+    },
+    {
+      "step": 60,
+      "time": 1.0000000000000013,
+      "type": "shape_spawned",
+      "data": {
+        "id": "shape_000",
+        "type": "square",
+        "color": "green",
+        "position": [
+          148.20067620411427,
+          398.5860876108809
+        ],
+        "size": 40.0,
+        "spawn_time": 1.0000000000000013,
+        "expires_at": 4.000000000000002
+      }
+    },
+    {
+      "step": 121,
+      "time": 2.0166666666666644,
+      "type": "shape_spawned",
+      "data": {
+        "id": "shape_001",
+        "type": "square",
+        "color": "green",
+        "position": [
+          651.5832539226185,
+          488.4704111506878
+        ],
+        "size": 40.0,
+        "spawn_time": 2.0166666666666644,
+        "expires_at": 5.016666666666664
+      }
+    },
+    {
+      "step": 182,
+      "time": 3.0333333333333274,
+      "type": "shape_spawned",
+      "data": {
+        "id": "shape_002",
+        "type": "circle",
+        "color": "green",
+        "position": [
+          328.3925229891436,
+          327.5905991474388
+        ],
+        "size": 40.0,
+        "spawn_time": 3.0333333333333274,
+        "expires_at": 6.033333333333328
+      }
+    },
+    {
+      "step": 241,
+      "time": 4.016666666666658,
+      "type": "shape_expired",
+      "data": {
+        "shape_id": "shape_000"
+      }
+    },
+    {
+      "step": 243,
+      "time": 4.049999999999991,
+      "type": "shape_spawned",
+      "data": {
+        "id": "shape_003",
+        "type": "circle",
+        "color": "blue",
+        "position": [
+          973.2472725232578,
+          438.87527863431757
+        ],
+        "size": 40.0,
+        "spawn_time": 4.049999999999991,
+        "expires_at": 7.049999999999991
+      }
+    },
+    {
+      "step": 302,
+      "time": 5.033333333333321,
+      "type": "shape_expired",
+      "data": {
+        "shape_id": "shape_001"
+      }
+    },
+    {
+      "step": 304,
+      "time": 5.066666666666654,
+      "type": "shape_spawned",
+      "data": {
+        "id": "shape_004",
+        "type": "circle",
+        "color": "green",
+        "position": [
+          670.7002313005936,
+          206.36000827509943
+        ],
+        "size": 40.0,
+        "spawn_time": 5.066666666666654,
+        "expires_at": 8.066666666666654
+      }
+    },
+    {
+      "step": 363,
+      "time": 6.049999999999984,
+      "type": "shape_expired",
+      "data": {
+        "shape_id": "shape_002"
+      }
+    },
+    {
+      "step": 365,
+      "time": 6.083333333333317,
+      "type": "shape_spawned",
+      "data": {
+        "id": "shape_005",
+        "type": "square",
+        "color": "blue",
+        "position": [
+          1140.210693748592,
+          393.69771747222234
+        ],
+        "size": 40.0,
+        "spawn_time": 6.083333333333317,
+        "expires_at": 9.083333333333318
+      }
+    },
+    {
+      "step": 424,
+      "time": 7.066666666666647,
+      "type": "shape_expired",
+      "data": {
+        "shape_id": "shape_003"
+      }
+    },
+    {
+      "step": 426,
+      "time": 7.09999999999998,
+      "type": "shape_spawned",
+      "data": {
+        "id": "shape_006",
+        "type": "triangle",
+        "color": "green",
+        "position": [
+          773.0410640261234,
+          507.4619588829188
+        ],
+        "size": 40.0,
+        "spawn_time": 7.09999999999998,
+        "expires_at": 10.09999999999998
+      }
+    },
+    {
+      "step": 485,
+      "time": 8.083333333333314,
+      "type": "shape_expired",
+      "data": {
+        "shape_id": "shape_004"
+      }
+    },
+    {
+      "step": 486,
+      "time": 8.099999999999982,
+      "type": "shape_spawned",
+      "data": {
+        "id": "shape_007",
+        "type": "square",
+        "color": "blue",
+        "position": [
+          476.8443214872854,
+          272.7457374764425
+        ],
+        "size": 40.0,
+        "spawn_time": 8.099999999999982,
+        "expires_at": 11.099999999999982
+      }
+    },
+    {
+      "step": 545,
+      "time": 9.083333333333364,
+      "type": "shape_expired",
+      "data": {
+        "shape_id": "shape_005"
+      }
+    },
+    {
+      "step": 546,
+      "time": 9.100000000000032,
+      "type": "shape_spawned",
+      "data": {
+        "id": "shape_008",
+        "type": "triangle",
+        "color": "red",
+        "position": [
+          987.2254328935616,
+          197.8641406686301
+        ],
+        "size": 40.0,
+        "spawn_time": 9.100000000000032,
+        "expires_at": 12.100000000000032
+      }
+    },
+    {
+      "step": 606,
+      "time": 10.100000000000081,
+      "type": "shape_spawned",
+      "data": {
+        "id": "shape_009",
+        "type": "triangle",
+        "color": "blue",
+        "position": [
+          1016.2651162509919,
+          362.9624476662509
+        ],
+        "size": 40.0,
+        "spawn_time": 10.100000000000081,
+        "expires_at": 13.100000000000081
+      }
+    },
+    {
+      "step": 606,
+      "time": 10.100000000000081,
+      "type": "shape_expired",
+      "data": {
+        "shape_id": "shape_006"
+      }
+    },
+    {
+      "step": 627,
+      "time": 10.450000000000099,
+      "type": "episode_end",
+      "data": {
+        "reason": "time_limit",
+        "total_steps": 627,
+        "total_time": 10.450000000000099,
+        "final_score": 0,
+        "shapes_spawned": 10,
+        "final_speed": 300.0
+      }
+    }
+  ],
+  "summary": {
+    "total_steps": 627,
+    "total_time": 10.450000000000099,
+    "final_score": 0,
+    "shapes_spawned": 10,
+    "final_speed": 300.0
+  }
+}

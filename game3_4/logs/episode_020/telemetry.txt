@@ -1,0 +1,2 @@
+Step 0 | Time: 0.000s | Pos: (640.0, 360.0) | Vel: (0.0, 0.0) | Orient: 1.99 rad | AngVel: 0.00 | Speed: 0.0 | Score: 0 | ActiveShapes: 0
+Step 1 | Time: 0.017s | Pos: (640.0, 360.0) | Vel: (0.0, 0.0) | Orient: 1.99 rad | AngVel: 0.00 | Speed: 0.0 | Score: 0 | ActiveShapes: 0

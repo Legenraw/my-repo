@@ -1,0 +1,21 @@
+[0.093s] Invoking command in '/home/legenraw/auv tasks/action_task/build/action_msg': /usr/bin/cmake /home/legenraw/auv tasks/action_task/src/action_msg -DCMAKE_INSTALL_PREFIX=/home/legenraw/auv tasks/action_task/install/action_msg
+[0.108s] -- Configuring incomplete, errors occurred!
+[0.108s] See also "/home/legenraw/auv tasks/action_task/build/action_msg/CMakeFiles/CMakeOutput.log".
+[0.108s] [31mCMake Error at CMakeLists.txt:9 (find_package):
+[0.108s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.108s]   has asked CMake to find a package configuration file provided by
+[0.108s]   "ament_cmake", but CMake did not find one.
+[0.108s] 
+[0.108s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.108s]   any of the following names:
+[0.108s] 
+[0.109s]     ament_cmakeConfig.cmake
+[0.109s]     ament_cmake-config.cmake
+[0.109s] 
+[0.109s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.109s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.109s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.109s]   has been installed.
+[0.109s] 
+[0.109s] [0m
+[0.110s] Invoked command in '/home/legenraw/auv tasks/action_task/build/action_msg' returned '1': /usr/bin/cmake /home/legenraw/auv tasks/action_task/src/action_msg -DCMAKE_INSTALL_PREFIX=/home/legenraw/auv tasks/action_task/install/action_msg
